@@ -20,7 +20,6 @@ aws --profile=<profile name> iam list-roles| jq '.["Roles"][]["RoleName"]'|grep 
 "AWSServiceRoleForEC2SpotFleet"
 ```
 
-
 ```bash
 # 設定テンプレートから設定ファイル作成
 cp cdk.json.template cdk.json
